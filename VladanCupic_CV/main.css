@@ -1,5 +1,6 @@
 .one {
   width: 80%;
+  height: 100%;
   margin: 5% auto;
   display: flex;
 }
@@ -36,6 +37,10 @@ ul {
   color: blueviolet;
   font-size: 24px;
 }
+a:hover {
+    color: red;
+
+}
 .profesional, .contact, .projects, .personal {
     color: darkblue;
 }
@@ -43,7 +48,8 @@ ul {
     font-size: 12px;
 }
 .second {
-    background-color: whitesmoke;
+    width: 70%;
+    background-color: aquamarine;
 }
 
 
