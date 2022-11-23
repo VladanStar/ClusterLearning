@@ -53,26 +53,27 @@ a:hover {
 }
 .name {
     text-align: center;
-    padding: 10px;
-    background-color: turquoise;
+    padding: 8px;
+  
 }
 .name h2 {
-    font-size: 48px;
+    font-size: 42px;
     color: darkmagenta
 }
 .name p {
-    font-size: 32px;
+    font-size: 28px;
     color: blueviolet;
 }
 .heading_two {
     font-weight: bolder;
     color: blueviolet;
 }
-.about, .work_experiance {
-    margin: 5%;
+.about, .work_experiance, .education {
+    margin: 2% 5% 3%;
     color: darkblue;
     padding: 10px;
-  
 }
-
+.work_experiance p {
+    font-size: 14px;
+}
 
