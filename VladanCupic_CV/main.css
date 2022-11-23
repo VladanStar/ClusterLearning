@@ -53,7 +53,8 @@ a:hover {
 }
 .name {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    background-color: turquoise;
 }
 .name h2 {
     font-size: 48px;
@@ -62,6 +63,16 @@ a:hover {
 .name p {
     font-size: 32px;
     color: blueviolet;
+}
+.heading_two {
+    font-weight: bolder;
+    color: blueviolet;
+}
+.about, .work_experiance {
+    margin: 5%;
+    color: darkblue;
+    padding: 10px;
+  
 }
 
 
