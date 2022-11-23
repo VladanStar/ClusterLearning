@@ -24,11 +24,16 @@ table {
 h4 {
     text-align: center;
 }
-tr  + td {
+tr > td {
     text-align: center;
+}
+.one {
+    text-align:center;
     white-space:nowrap;
     transform-origin:50% 50%;
-    transform: rotate(90deg);
+    transform: rotate(90deg);  
+    font-weight: bold;
+    font-size: 24px;
 }
 a {
     text-decoration: none;
