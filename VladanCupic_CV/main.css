@@ -51,5 +51,17 @@ a:hover {
     width: 70%;
     background-color: aquamarine;
 }
+.name {
+    text-align: center;
+    padding: 20px;
+}
+.name h2 {
+    font-size: 48px;
+    color: darkmagenta
+}
+.name p {
+    font-size: 32px;
+    color: blueviolet;
+}
 
 
