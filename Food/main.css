@@ -12,8 +12,8 @@ table, td, th {
 table {
     width: 500px;
     height: 350px;
-    background-image: url(./orange.jpg);
-    opacity: 0.7;
+    background-image: url(./OIP.jpg);
+    opacity: 0.75;
     background-size: cover;
    
 }
