@@ -1,3 +1,7 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+}
 .one {
   width: 80%;
   height: 100%;
@@ -13,7 +17,7 @@
 }
 .first {
   width: 30%;
-  background-color: aqua;
+background: linear-gradient(#e66465, #9198e5);
   padding: 10px;
 }
 ul {
@@ -27,15 +31,10 @@ ul {
 .github {
   font-weight: bold;
 }
-.contact a {
- 
-  color: darkblue;
-}
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .projects a {
- 
   font-weight: bold;
   color: blueviolet;
   font-size: 24px;
@@ -54,7 +53,9 @@ a:hover {
 }
 .second {
   width: 70%;
-  background-color: aquamarine;
+  background: linear-gradient(217deg, rgba(223, 54, 54, 0.8), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, rgba(205, 111, 172, 0.8), rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 60.71%);;
 }
 .name {
   text-align: center;
@@ -79,6 +80,8 @@ a:hover {
   color: darkblue;
   padding: 7px;
 }
-.work_experiance, .about, .education p {
+.work_experiance,
+.about,
+.education p {
   font-size: 14px;
 }
