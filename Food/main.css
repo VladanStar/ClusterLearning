@@ -39,6 +39,7 @@ img {
     height: 70px;
     margin: 5px;
     border: 1px solid red;
+    border-radius: 20%;
 }
 .fleks {
     display: flex;
