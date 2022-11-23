@@ -1,7 +1,7 @@
 .one {
   width: 80%;
   height: 100%;
-  margin: 5% auto;
+  margin: 3% auto 2%;
   display: flex;
 }
 #photo_div {
@@ -28,8 +28,8 @@ ul {
   font-weight: bold;
 }
 .contact a {
-    text-decoration: none;
-    color: darkblue;
+  text-decoration: none;
+  color: darkblue;
 }
 .projects a {
   text-decoration: none;
@@ -38,42 +38,44 @@ ul {
   font-size: 24px;
 }
 a:hover {
-    color: red;
-
+  color: red;
 }
-.profesional, .contact, .projects, .personal {
-    color: darkblue;
+.profesional,
+.contact,
+.projects,
+.personal {
+  color: darkblue;
 }
 .projects p {
-    font-size: 12px;
+  font-size: 12px;
 }
 .second {
-    width: 70%;
-    background-color: aquamarine;
+  width: 70%;
+  background-color: aquamarine;
 }
 .name {
-    text-align: center;
-    padding: 8px;
-  
+  text-align: center;
+  padding: 5px;
 }
 .name h2 {
-    font-size: 42px;
-    color: darkmagenta
+  font-size: 36px;
+  color: darkmagenta;
 }
 .name p {
-    font-size: 28px;
-    color: blueviolet;
+  font-size: 24px;
+  color: blueviolet;
 }
 .heading_two {
-    font-weight: bolder;
-    color: blueviolet;
+  font-weight: bolder;
+  color: blueviolet;
 }
-.about, .work_experiance, .education {
-    margin: 2% 5% 3%;
-    color: darkblue;
-    padding: 10px;
+.about,
+.work_experiance,
+.education {
+  margin: 5px 5% 5px;
+  color: darkblue;
+  padding: 7px;
 }
-.work_experiance p {
-    font-size: 14px;
+.work_experiance, .about, .education p {
+  font-size: 14px;
 }
-
