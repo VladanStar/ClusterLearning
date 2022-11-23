@@ -1,0 +1,49 @@
+.one {
+  width: 80%;
+  margin: 5% auto;
+  display: flex;
+}
+#photo_div {
+  text-align: center;
+}
+#photo_div img {
+  border-radius: 50%;
+  width: 250px;
+}
+.first {
+  width: 30%;
+  background-color: aqua;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+}
+.header2 {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+.github {
+  font-weight: bold;
+}
+.contact a {
+    text-decoration: none;
+    color: darkblue;
+}
+.projects a {
+  text-decoration: none;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 24px;
+}
+.profesional, .contact, .projects, .personal {
+    color: darkblue;
+}
+.projects p {
+    font-size: 12px;
+}
+.second {
+    background-color: whitesmoke;
+}
+
+
