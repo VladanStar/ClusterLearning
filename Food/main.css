@@ -15,8 +15,7 @@ table {
     background-image: url(./OIP.jpg);
     opacity: 0.75;
     background-size: cover;
-   
-}
+   }
 .naslov {
     font-size: large;
     font-weight: bold;
@@ -25,8 +24,11 @@ table {
 h4 {
     text-align: center;
 }
-tr > td {
+tr  + td {
     text-align: center;
+    white-space:nowrap;
+    transform-origin:50% 50%;
+    transform: rotate(90deg);
 }
 a {
     text-decoration: none;
