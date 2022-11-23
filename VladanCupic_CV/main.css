@@ -28,11 +28,14 @@ ul {
   font-weight: bold;
 }
 .contact a {
-  text-decoration: none;
+ 
   color: darkblue;
 }
+a {
+    text-decoration: none;
+}
 .projects a {
-  text-decoration: none;
+ 
   font-weight: bold;
   color: blueviolet;
   font-size: 24px;
