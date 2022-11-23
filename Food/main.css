@@ -10,7 +10,7 @@ table, td, th {
 }
 table {
     width: 500px;
-    height: 50vh;
+    height: 350px;
     background-image: url(./orange.jpg);
     opacity: 0.7;
     background-size: cover;
@@ -40,6 +40,17 @@ img {
 }
 .fleks {
     display: flex;
-    justify-content: center;
-    align-items: center;
+  
 }
+ul {
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+ul {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+  }
