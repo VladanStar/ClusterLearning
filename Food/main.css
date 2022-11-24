@@ -10,7 +10,7 @@ table, td, th {
     box-shadow: 5px 5px 5px royalblue;
 }
 table {
-    width: 500px;
+    width: 450px;
     height: 350px;
     background-image: url(./OIP.jpg);
     opacity: 0.75;
@@ -24,7 +24,7 @@ table {
 h4 {
     text-align: center;
 }
-tr > td {
+tr ~ td {
     text-align: center;
 }
 .one {
